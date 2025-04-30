@@ -1,0 +1,28 @@
+{
+  "name": "nasascii",
+  "version": "1.0.0",
+  "description": "a ascii code art generating api local server built with express, axios, jimp and nasa image-api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gyunam-bark/nasascii.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gyunam-bark/nasascii/issues"
+  },
+  "homepage": "https://github.com/gyunam-bark/nasascii#readme",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "express": "^5.1.0",
+    "jimp": "^1.6.0"
+  },
+  "type": "module"
+}
